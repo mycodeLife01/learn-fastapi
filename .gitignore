@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.virtualenvs/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+instance/
+*.db
+
+# FastAPI & Pydantic related
+.cache/
+*.json
+
+# Dependencies
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Deployment related
+.env
+.env.*
+*.pem
+*.crt
+*.key
+
+# Migrations (if using Alembic)
+migrations/
+alembic/
+
+# Static/media files (if applicable)
+staticfiles/
+media/
+
+# Ignore compiled Cython files
+*.c
+*.so
